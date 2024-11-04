@@ -36,7 +36,7 @@ Below is a simple description and drawings of the application layout:
    - **Scoring and Feedback**: Displays the accuracy of the guess and points awarded.
    - **Play Again Button**: To start a new game.
 
-## Example Drawing
+## Example Web Page
 A simple visual sketch can be provided to explain the layout of the application (e.g., a hand-drawn sketch or a digital mockup).
 
 
