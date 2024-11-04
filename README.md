@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ATV5e7Id)
 
 # Stadium Guessing Game
-bchgjjgjgjggj
+
 This project is a web-based game where users are shown photos of various stadiums and asked to guess the city in which the stadium is located.
 
 ## Project Goal
