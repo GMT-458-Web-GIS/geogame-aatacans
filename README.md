@@ -38,6 +38,8 @@ Below is a simple description and drawings of the application layout:
 
 ## Example Web Page
 
+![Ekran görüntüsü 2024-11-04 195530](https://github.com/user-attachments/assets/5aaac382-c113-454d-bc8d-c16913fa5949)
+
 
 
 
