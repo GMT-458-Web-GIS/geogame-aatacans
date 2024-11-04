@@ -1,42 +1,45 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ATV5e7Id)
-# Stad Bulma Oyunu
+# Stadium Finding Game
 
-Bu proje, kullanıcılara çeşitli stadyumların fotoğraflarını göstererek, o stadyumun hangi şehirde olduğunu tahmin etmelerini sağlayan bir web tabanlı oyundur.
+This project is a web-based game that shows users photos of various stadiums and allows them to guess which city that stadium is in.
 
-## Projenin Amacı
-Kullanıcıların dünya genelindeki ünlü stadyumları tanıyarak hem eğlenceli vakit geçirmelerini sağlamak hem de coğrafi bilgilerini artırmak.
+## Project Purpose
+To provide users with both fun time and geographical knowledge by getting to know famous stadiums around the world.
 
-## Gereksinimler
-- **Oyun Mekaniği**:
-  - Kullanıcıya bir stadın fotoğrafı gösterilir.
-  - Kullanıcı, harita üzerinde stadyumun bulunduğu şehri seçer.
-  - Doğru şehir ile tahmini arasındaki mesafeye göre puan hesaplanır.
-- **Temel Özellikler**:
-  - Stad fotoğraflarının gösterildiği bir alan.
-  - Kullanıcının şehir seçimi yapabileceği etkileşimli bir harita.
-  - Puanlama ve sonuç ekranı.
-- **Frontend Teknolojileri**:
-  - **HTML** ve **CSS** ile arayüz tasarımı.
-- **Backend Teknolojileri**:
-  - **JavaScript** ile etkileşimli özellikler ve veri işleme.
-- **Kullanılacak Kütüphaneler**:
-  - **Leaflet**: Harita bileşenleri ve etkileşimli harita kullanımı için.
+## Requirements
+- **Game Mechanics**:
+- A stadium photo is shown to the user.
+- The user selects the city where the stadium is located on the map.
+- The score is calculated according to the distance between the correct city and the estimated city.
+- **Basic Features**:
+- An area where stadium photos are displayed.
+- An interactive map where the user can select a city.
+- Scoring and results screen.
+- **Frontend Technologies**:
+- Interface design with **HTML** and **CSS**.
+- **Backend Technologies**:
+- Interactive features and data processing with **JavaScript**.
+- **Libraries to be used**:
 
-## Frontend Düzeni
-Aşağıda, uygulamanın düzeni hakkında basit bir açıklama ve çizimler yer almaktadır:
+- **Leaflet**: For map components and interactive map usage.
 
-1. **Ana Sayfa**:
-   - **Başlık ve Kısa Bilgi**: Oyunun adı ve oynanma kuralları.
-   - **Başlat Butonu**: Oyunu başlatmak için.
-2. **Oyun Ekranı**:
-   - **Fotoğraf Alanı**: Ekranın üst kısmında stadın fotoğrafı.
-   - **Harita Alanı**: Fotoğrafın altında, oyuncunun tahmin yapacağı harita.
-   - **Tahmin Butonu**: Seçimi onaylamak için.
-3. **Sonuç Ekranı**:
-   - **Puanlama ve Bilgilendirme**: Kullanıcının tahmininin doğruluğu ve aldığı puan.
-   - **Tekrar Oyna Butonu**: Yeni bir oyunu başlatmak için.
+## Frontend Layout
+Below is a simple explanation and illustrations about the application's layout:
 
-## Örnek Çizim
-Basit bir görsel taslak, uygulamanın düzenini açıklamak için kullanılabilir (örneğin kağıt üzerinde çizim ya da dijital bir çizim eklenebilir).
+1. **Homepage**:
+- **Title and Short Information**: Name of the game and rules of play.
+- **Start Button**: To start the game.
+
+2. **Game Screen**:
+- **Photo Area**: Photo of the stadium at the top of the screen.
+- **Map Area**: Map below the photo, where the player will make a prediction.
+- **Prediction Button**: To confirm the selection.
+3. **Results Screen**:
+- **Scoring and Information**: The accuracy of the user's prediction and the score he/she received.
+- **Play Again Button**: To start a new game.
+
+## Sample Sketch
+A simple visual sketch can be used to explain the layout of the application (e.g. a paper sketch or a digital drawing can be added).
+
 
 
