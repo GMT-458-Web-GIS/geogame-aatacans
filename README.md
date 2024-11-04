@@ -1,45 +1,47 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ATV5e7Id)
-# Stadium Finding Game
 
-This project is a web-based game that shows users photos of various stadiums and allows them to guess which city that stadium is in.
+# Stadium Guessing Game
 
-## Project Purpose
-To provide users with both fun time and geographical knowledge by getting to know famous stadiums around the world.
+This project is a web-based game where users are shown photos of various stadiums and asked to guess the city in which the stadium is located.
+
+## Project Goal
+To provide users with an entertaining way to learn about famous stadiums around the world while enhancing their geographic knowledge.
 
 ## Requirements
 - **Game Mechanics**:
-- A stadium photo is shown to the user.
-- The user selects the city where the stadium is located on the map.
-- The score is calculated according to the distance between the correct city and the estimated city.
-- **Basic Features**:
-- An area where stadium photos are displayed.
-- An interactive map where the user can select a city.
-- Scoring and results screen.
+  - A photo of a stadium is shown to the user.
+  - The user selects the city where the stadium is located on an interactive map.
+  - Points are awarded based on the distance between the selected city and the actual stadium location.
+- **Core Features**:
+  - A section for displaying stadium photos.
+  - An interactive map where users can make their city selection.
+  - A scoring system and result display.
 - **Frontend Technologies**:
-- Interface design with **HTML** and **CSS**.
+  - **HTML** and **CSS** for user interface design.
 - **Backend Technologies**:
-- Interactive features and data processing with **JavaScript**.
-- **Libraries to be used**:
-
-- **Leaflet**: For map components and interactive map usage.
+  - **JavaScript** for interactive features and data handling.
+- **Libraries Used**:
+  - **Leaflet**: For the map components and interactive mapping features.
 
 ## Frontend Layout
-Below is a simple explanation and illustrations about the application's layout:
+Below is a simple description and drawings of the application layout:
 
-1. **Homepage**:
-- **Title and Short Information**: Name of the game and rules of play.
-- **Start Button**: To start the game.
-
+1. **Home Page**:
+   - **Title and Brief Information**: The game name and instructions.
+   - **Start Button**: To begin the game.
 2. **Game Screen**:
-- **Photo Area**: Photo of the stadium at the top of the screen.
-- **Map Area**: Map below the photo, where the player will make a prediction.
-- **Prediction Button**: To confirm the selection.
-3. **Results Screen**:
-- **Scoring and Information**: The accuracy of the user's prediction and the score he/she received.
-- **Play Again Button**: To start a new game.
+   - **Photo Area**: A section at the top displaying the stadium photo.
+   - **Map Area**: Below the photo, where the user makes their guess.
+   - **Submit Button**: To confirm the selection.
+3. **Result Screen**:
+   - **Scoring and Feedback**: Displays the accuracy of the guess and points awarded.
+   - **Play Again Button**: To start a new game.
 
-## Sample Sketch
-A simple visual sketch can be used to explain the layout of the application (e.g. a paper sketch or a digital drawing can be added).
+## Example Drawing
+A simple visual sketch can be provided to explain the layout of the application (e.g., a hand-drawn sketch or a digital mockup).
+
+
+
 
 
 
