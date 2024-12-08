@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #dceaa0;
     color: #333;
     text-align: center;
 }
@@ -28,9 +28,9 @@ header {
 
 /* Oyun Alanı (Stadyum Resmi ve Harita) */
 #game-container {
-    display: flex;
+    display: flex; /* Yatay düzen */
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; /* Üst hizalama */
     margin: 20px auto;
     max-width: 1000px;
     padding: 20px;
@@ -38,69 +38,91 @@ header {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    gap: 20px;
+    gap: 20px; /* Harita ve resim arasında boşluk */
 }
 
+/* Stadyum Resmi Alanı */
 #image-container {
-    flex: 1;
+    flex: 1; /* Resim alanı genişliği */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start; /* Başlık yukarıda kalacak */
     align-items: center;
-    height: 420px;
-    overflow: hidden;
+    height: 420px; /* Sabit çerçeve boyutu */
+    overflow: hidden; /* Taşmaları engelle */
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f0f0f0;
 }
 
+/* Üstte Sabit Başlık */
 .image-title {
     font-family: 'Lobster', cursive;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #ff5722;
+    color: #020000;
 }
 
+/* Görsel Alanı */
 #image {
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Çerçeve genişliğini doldur */
+    height: 100%; /* Çerçeve yüksekliğini doldur */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Görselleri yatayda ortala */
+    align-items: center; /* Görselleri dikeyde ortala */
 }
 
+#image img {
+    max-width: 100%; /* Görsel çerçeveden taşmasın */
+    max-height: 100%; /* Görsel çerçeveden taşmasın */
+    object-fit: contain; /* Görsel orijinal oranını koruyarak çerçeveye sığsın */
+    border-radius: 5px;
+}
+
+/* Harita Alanı */
 #map {
-    flex: 1;
+    flex: 1; /* Harita genişliği */
     height: 420px; /* Sabit bir yükseklik */
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Yüklenmezse arka plan rengi */
+}
+
+/* İkon */
+#icon {
+    width: 50px; /* İkonun genişliğini arttır */
+    height: auto; /* Yüksekliği orantılı şekilde ayarla */
+    margin: 20px auto;
+    display: block;
+    text-align: center; /* Ekranın ortasında yer almasını sağlamak için */
+}
+
+#icon img {
+    width: 100%; /* İkonun boyutunu artır */
+    height: auto;
 }
 
 /* Bilgi Alanları (Zaman ve Puan) */
 .info-text {
     font-size: 1.2rem;
     margin-top: 10px;
-    color: #4CAF50;
+    color: #000000;
 }
 
-/* Start Butonu */
-.start-button-container {
-    margin-top: 20px;
-}
-
+/* Start Game Button */
 .start-button {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
     background-color: #4CAF50;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    font-size: 1.2rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
 .start-button:hover {
     background-color: #45a049;
 }
+
+
