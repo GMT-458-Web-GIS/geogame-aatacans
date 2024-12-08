@@ -1,4 +1,4 @@
-
+## GAME LINK : https://gmt-458-web-gis.github.io/geogame-aatacans/
 # Stadium Guessing Game
 
 This project is a web-based game where users are shown photos of various stadiums and asked to guess the city in which the stadium is located.
@@ -35,7 +35,7 @@ Below is a simple description and drawings of the application layout:
 3. **Result Screen**:
    - **Scoring and Feedback**: Displays the accuracy of the guess and points awarded.
    - **Play Again Button**: To start a new game.
-
+## ChatGPT Link: https://chatgpt.com/share/6756052a-de54-8001-960c-f3cff3a7a3a7 
 ## Example Web Page
 
 ![Ekran görüntüsü 2024-11-04 195530](https://github.com/user-attachments/assets/5aaac382-c113-454d-bc8d-c16913fa5949)
