@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stadium Guessr</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1 class="game-title">Stadium Guessr</h1>
+        <p class="game-description">Guess the city of the stadium shown in the picture!</p>
+    </header>
+    <main>
+        <div id="game-container" class="container">
+            <div id="image-container">
+                <p class="image-title">Stadium Image</p>
+                <div id="image"></div>
+            </div>
+            <div id="map"></div>
+        </div>
+        <div class="info-container">
+            <p id="timer" class="info-text">Time Left: 120 seconds</p>
+            <p id="points" class="info-text">Points: 0</p>
+        </div>
+        <div class="start-button-container">
+            <button id="startButton" class="start-button">Start Game</button>
+        </div>
+    </main>
+    <script src="map.js"></script>
 </body>
 </html>

@@ -1,0 +1,106 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-title {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.game-description {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Oyun Alanı (Stadyum Resmi ve Harita) */
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 20px;
+}
+
+#image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 420px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.image-title {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff5722;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    flex: 1;
+    height: 420px; /* Sabit bir yükseklik */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+/* Bilgi Alanları (Zaman ve Puan) */
+.info-text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+/* Start Butonu */
+.start-button-container {
+    margin-top: 20px;
+}
+
+.start-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
